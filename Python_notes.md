@@ -4148,7 +4148,7 @@ os.system("mspaint")
 # Open Paint (Windows
 time.sleep(3)
  
-# Move mouse to canvas area
+# Move mouse to canvas area.
 pyautogui.moveTo(400, 400, duration=1)
  
 # Draw a square
