@@ -4158,3 +4158,126 @@ for _ in range(4):
     pyautogui.dragRel(-100, 0, duration=1) # Left
     pyautogui.dragRel(0, -100, duration=1) # Up
 pyautogui.
+
+
+### Top 5 AI Tools To build Agentic AI System
+
+1. LangChain
+2. CrewAI
+3. AutoGen
+4. AutoGpt
+5. LlamaIndex
+
+##### 1. LangChain 
+
+**What is it?**
+LangChain is a framework used to build intelligent applications using Large Language Models (LLMs), and it can be easily implemented and tested in **Jupyter Notebook** to develop AI agents with tools, memory, and custom logic.
+
+**Core Features:**
+
+* **Chains:** Sequences of LLM and logic steps executed in notebook cells.
+* **Agents:** LLMs that decide actions and use tools directly from the notebook environment.
+* **Memory:** Stores conversation context during notebook execution.
+* **Tools:** Connect to APIs, databases, or Python functions inside the notebook.
+* **Retrieval Augmented Generation (RAG):** Retrieve documents and generate accurate responses.
+
+**Real-Time Applications:**
+
+* Q&A bots for college materials
+* AI tutor bots for assignments
+* Academic search assistants
+* SQL query generation bots
+
+
+##### 2. AutoGen
+
+**What is it?**
+AutoGen is a framework developed by Microsoft that enables **multi-agent collaboration using LLMs**, where multiple AI agents work together like a team to solve complex tasks.
+
+**Core Features**
+
+* **Role-based Agents:** Agents like *Assistant* and *UserProxy* perform different roles.
+* **Multi-Agent Group Chat:** Agents communicate with each other to complete tasks.
+* **Tools & Function Execution:** Agents can run code, APIs, and external tools.
+* **Human-in-the-Loop:** Humans can monitor or guide the agents during execution.
+
+**Real-Time Applications**
+
+* Research assistants (writer + editor agents)
+* Software engineering automation bots
+* Content generator teams
+* Simulated student–teacher bots for learning systems
+
+
+
+##### 3. Flowise
+
+**What is it?**
+Flowise is a **no-code visual builder based on LangChain** that allows users to create powerful AI workflows using a drag-and-drop interface without writing code.
+
+**Core Features**
+
+* **Drag-and-Drop Visual Editor** to design AI workflows
+* Supports LLMs such as OpenAI, Ollama, and Cohere
+* Integrates with vector databases like Pinecone and ChromaDB
+* Can be deployed **locally or in the cloud**
+
+**Real-Time Applications**
+
+* Chat with notes, PDFs, and websites
+* Academic bots for resume review
+* Internal knowledge assistants for colleges
+* Grievance redressal chatbots
+
+##### 4. SuperAGI
+
+**What is it?**
+
+* SuperAGI is an **autonomous agent framework** that builds agents which can **think, plan, and act independently.** *(Note: "think, plan, and act" are underlined in red in the image).*
+
+**Core Features:**
+
+* Set goals, and agents autonomously act
+* Visual dashboards to track agent progress
+* Large library of built-in tools
+* **Git-based workflows** *(Note: This item is circled in red in the image).*
+
+
+**Real-Time Applications:**
+
+* Autonomous academic research bots
+* Student email bots
+* Fee payment follow-up agents
+* Assignment plagiarism checkers
+
+##### 5. CrewAI
+
+**What is it?**
+CrewAI is an **open-source multi-agent orchestration framework** where specialized AI agents collaborate like a **project team** to complete complex, multi-step tasks using defined roles, goals, and workflows.
+
+
+**Core Features**
+
+**1️ Role-Based Agents**
+Agents can be customized with **specific roles, goals, backstories, and tools** to perform specialized tasks.
+
+**2️ Managed Collaboration**
+Supports **sequential or hierarchical workflows**, where agents complete tasks step-by-step or under a manager agent.
+
+**3️ Tool Integration**
+Agents can connect to **APIs, search engines, databases, and custom tools** to perform real-world operations.
+
+**4️ Flexible LLM Support**
+Works with different language models such as **OpenAI**, **Claude**, and local models.
+
+**5️ Transparent Execution**
+Agents communicate with each other, **share context, and pass outputs** to complete the overall task.
+
+
+
+**Real-Time Applications**
+
+* Research teams (researcher + writer + editor agents)
+* Automated content creation systems
+* Business workflow automation
+* Software development assistant teams
